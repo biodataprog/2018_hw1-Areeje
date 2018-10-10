@@ -1,0 +1,2 @@
+$ gunzip Ecoli-vs-Yersinia.BLASTP.tab.gz
+$ du Ecoli-vs-Yersinia.BLASTP.tab
