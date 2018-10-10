@@ -1,0 +1,2 @@
+$ cut -f3 Ecoli-vs-Yersinia.BLASTP.tab |grep -c 100\.0
+$ awk '{if ($3 >= 90) {print $1}}' Ecoli-vs-Yersinia.BLASTP.tab | wc -l
