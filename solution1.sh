@@ -11,8 +11,6 @@ $ head -25 Ecoli-vs-Yersinia.BLASTP.tab
 $ tail -3 Ecoli-vs-Yersinia.BLASTP.tab
 $ wc -l Ecoli-vs-Yersinia.BLASTP.tab
 
-$ curl -O https://biodataprog.github.io/2018_programming-intro/data/Nc3H.expr.tab
-$ awk '{print $1, $6}' Nc3H.expr.tab | sort -nrk2 > Nc3H.expr.sorted.tab
-$ head -n 10 Nc3H.expr.sorted.tab
+
 
 
