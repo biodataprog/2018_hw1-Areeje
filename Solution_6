@@ -1,0 +1,2 @@
+$ curl -O https://biodataprog.github.io/2018_programming-intro/data/codon_table.txt
+$ sort -k2 codon_table.txt | cut -f3 | uniq -c
