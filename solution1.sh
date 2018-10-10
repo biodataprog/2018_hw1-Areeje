@@ -15,5 +15,4 @@ $ curl -O https://biodataprog.github.io/2018_programming-intro/data/Nc3H.expr.ta
 $ awk '{print $1, $6}' Nc3H.expr.tab | sort -nrk2 > Nc3H.expr.sorted.tab
 $ head -n 10 Nc3H.expr.sorted.tab
 
-$ curl -O https://biodataprog.github.io/2018_programming-intro/data/D_mel.63B12.gbk
-$ grep -c CDS D_mel.63B12.gbk
+
